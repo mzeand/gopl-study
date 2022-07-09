@@ -1,8 +1,6 @@
 name: lint
-on:
-  push:
-    paths:
-      - '**.go'
+on: push
+
 jobs:
   golangci:
     strategy:
